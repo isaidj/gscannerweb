@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import icon from "../public/icon.png";
 import { AppStoreIcon, PcIcon, PlaystoreIcon } from "@/assets/Icons";
@@ -22,7 +21,7 @@ export default function Home() {
         </div>
         <div className="mt-8">
           <Link
-            href="/donwload"
+            href="/#"
             className="bg-gray-900 rounded-lg flex items-center gap-2 p-1 px-2 hover:bg-gray-800 hover:translate-y-0.5 shadow-xl transition-all duration-300 "
           >
             <PcIcon className="w-10   h-10" />
@@ -31,7 +30,7 @@ export default function Home() {
         </div>
         <div className="mt-8 flex flex-col gap-4 items-center">
           <Link
-            href="/playstore"
+            href="/#"
             className="bg-zinc-900  rounded-lg flex items-center gap-2 p-1 px-2 hover:bg-zinc-800 hover:translate-y-0.5 shadow-xl transition-all duration-300 "
           >
             <PlaystoreIcon className="w-10   h-10 p-0 m-0" />
