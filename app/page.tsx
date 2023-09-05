@@ -6,7 +6,7 @@ import desktopImage from "../public/desktop-transparent.webp";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 bg-gradient-to-r from-black via-gray-900 to-black gap-4 font-roboto">
+    <main className="flex min-h-screen flex-col items-center md:p-24 bg-gradient-to-r from-black via-gray-900 to-black gap-4 font-roboto">
       <div className="flex flex-col items-center  h-full z-10">
         <h1 className="text-4xl font-bold mt-8">G-Scanner</h1>
         <p className="text-lg text-center mt-4">
