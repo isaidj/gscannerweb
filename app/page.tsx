@@ -2,7 +2,7 @@ import Image from "next/image";
 import icon from "../public/icon.png";
 import { AppStoreIcon, PcIcon, PlaystoreIcon } from "@/assets/Icons";
 import Link from "next/link";
-import desktopImage from "../public/desktop-transparent.webp";
+import desktopImage from "../public/desktop-transparent-1920.png";
 import ButtonDownloadS3File from "@/components/ButtonDownloadS3File";
 
 export default function Home() {
