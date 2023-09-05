@@ -23,6 +23,7 @@ export default function Home() {
         <div className="mt-8">
           <ButtonDownloadS3File />
         </div>
+        <div className=" w-full h-px  mt-8 md:block  bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         <div className="mt-8 flex flex-col gap-4 items-center">
           <Link
             href="/#"
