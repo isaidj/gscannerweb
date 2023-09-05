@@ -15,10 +15,10 @@ export const PlaystoreIcon = (props: React.SVGProps<SVGSVGElement>) => (
       y2="34.74"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#35ab4a" />
-      <stop offset=".297" stop-color="#31a145" />
-      <stop offset=".798" stop-color="#288739" />
-      <stop offset="1" stop-color="#237a33" />
+      <stop offset="0" stopColor="#35ab4a" />
+      <stop offset=".297" stopColor="#31a145" />
+      <stop offset=".798" stopColor="#288739" />
+      <stop offset="1" stopColor="#237a33" />
     </linearGradient>
     <path
       fill="url(#AraffhWwwEqZfgFEBZFoqa)"
@@ -32,9 +32,9 @@ export const PlaystoreIcon = (props: React.SVGProps<SVGSVGElement>) => (
       y2="66.931"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#f14e5d" />
-      <stop offset=".499" stop-color="#ea3d4f" />
-      <stop offset="1" stop-color="#e12138" />
+      <stop offset="0" stopColor="#f14e5d" />
+      <stop offset=".499" stopColor="#ea3d4f" />
+      <stop offset="1" stopColor="#e12138" />
     </linearGradient>
     <path
       fill="url(#AraffhWwwEqZfgFEBZFoqb)"
@@ -48,9 +48,9 @@ export const PlaystoreIcon = (props: React.SVGProps<SVGSVGElement>) => (
       y2="43.612"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#ffd844" />
-      <stop offset=".519" stop-color="#ffc63f" />
-      <stop offset="1" stop-color="#ffb03a" />
+      <stop offset="0" stopColor="#ffd844" />
+      <stop offset=".519" stopColor="#ffc63f" />
+      <stop offset="1" stopColor="#ffb03a" />
     </linearGradient>
     <path
       fill="url(#AraffhWwwEqZfgFEBZFoqc)"
@@ -64,8 +64,8 @@ export const PlaystoreIcon = (props: React.SVGProps<SVGSVGElement>) => (
       y2="42.811"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset=".003" stop-color="#0090e6" />
-      <stop offset="1" stop-color="#0065a0" />
+      <stop offset=".003" stopColor="#0090e6" />
+      <stop offset="1" stopColor="#0065a0" />
     </linearGradient>
     <path
       fill="url(#AraffhWwwEqZfgFEBZFoqd)"
@@ -108,8 +108,8 @@ export const PcIcon = (props: React.SVGProps<SVGSVGElement>) => (
         y2="28.8"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#B8B8B8" />
-        <stop offset="1" stop-color="#C7C7C7" />
+        <stop stopColor="#B8B8B8" />
+        <stop offset="1" stopColor="#C7C7C7" />
       </linearGradient>
       <radialGradient
         id="paint1_radial_103_1792"
@@ -120,7 +120,7 @@ export const PcIcon = (props: React.SVGProps<SVGSVGElement>) => (
         gradientTransform="translate(1.0941 28.8) rotate(137.02) scale(42.2447 63.3453)"
       >
         <stop />
-        <stop offset="1" stop-color="#757575" />
+        <stop offset="1" stopColor="#757575" />
       </radialGradient>
     </defs>
   </svg>
@@ -142,8 +142,8 @@ export const AppStoreIcon = (props: React.SVGProps<SVGSVGElement>) => (
       y2="40.096"
       gradientUnits="userSpaceOnUse"
     >
-      <stop offset="0" stop-color="#33bef0" />
-      <stop offset="1" stop-color="#0a85d9" />
+      <stop offset="0" stopColor="#33bef0" />
+      <stop offset="1" stopColor="#0a85d9" />
     </linearGradient>
     <path
       fill="url(#OpwYZ9nhL01h2sErtedzua)"

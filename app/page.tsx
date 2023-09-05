@@ -3,6 +3,7 @@ import icon from "../public/icon.png";
 import { AppStoreIcon, PcIcon, PlaystoreIcon } from "@/assets/Icons";
 import Link from "next/link";
 import desktopImage from "../public/desktop-transparent.webp";
+import ButtonDownloadS3File from "@/components/ButtonDownloadS3File";
 
 export default function Home() {
   return (
@@ -20,13 +21,7 @@ export default function Home() {
           />
         </div>
         <div className="mt-8">
-          <Link
-            href="/#"
-            className="bg-gray-900 rounded-lg flex items-center gap-2 p-1 px-2 hover:bg-gray-800 hover:translate-y-0.5 shadow-xl transition-all duration-300 "
-          >
-            <PcIcon className="w-10   h-10" />
-            Download App for Windows
-          </Link>
+          <ButtonDownloadS3File />
         </div>
         <div className="mt-8 flex flex-col gap-4 items-center">
           <Link
@@ -39,7 +34,7 @@ export default function Home() {
 
           <Link
             href="/#"
-            className="relative bg-zinc-900  rounded-lg flex items-center gap-2 p-1 px-2 hover:bg-zinc-800 text-gray-400"
+            className="relative bg-zinc-900  rounded-lg flex items-center gap-2 p-1 px-2 hover:bg-zinc-800 text-gray-500"
           >
             <p
               className="absolute mr-1 right-0 top-0  w-fit"
@@ -48,7 +43,7 @@ export default function Home() {
               Coming soon
             </p>
             <AppStoreIcon className="w-10   h-10 p-0 m-0" />
-            App Store
+            Download on Appstore
           </Link>
         </div>
         <p className="mt-8 text-gray-400 text-sm">
