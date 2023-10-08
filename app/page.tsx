@@ -16,7 +16,13 @@ export default function Home() {
         </p>
 
         <div className=" flex justify-center mt-4 z-10">
-          <Image src={banner} alt="desktop" className="rounded-lg w-2/3 z-10" />
+          <Image
+            src={banner}
+            alt="desktop"
+            className="rounded-lg z-10"
+            width={700}
+            height={500}
+          />
         </div>
 
         <Link
