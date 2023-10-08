@@ -2,12 +2,12 @@ import Image from "next/image";
 import icon from "../public/icon.png";
 import { AppStoreIcon, PcIcon, PlaystoreIcon } from "@/assets/Icons";
 import Link from "next/link";
-import desktopImage from "../public/desktop-transparent-900.png";
+import banner from "../public/banner.png";
 import ButtonDownloadS3File from "@/components/ButtonDownloadS3File";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-gradient-to-r from-slate-900 via-sky-950 to-slate-900 md:p-24 md:bg-gradient-to-r md:from-black md:via-sky-950 md:to-black gap-4 font-roboto ">
+    <main className="flex text-white min-h-screen flex-col items-center bg-gradient-to-r from-slate-900 via-sky-950 to-slate-900 md:p-24 md:bg-gradient-to-r md:from-slate-900 md:via-sky-950 md:to-slate-900 gap-4 font-roboto ">
       <div className="flex flex-col items-center  h-full z-10">
         <h1 className="text-4xl font-bold mt-8">G-Scanner</h1>
         <p className="text-lg text-center mt-4">
@@ -15,28 +15,15 @@ export default function Home() {
           plastic scanners.
         </p>
 
-        <div className="mt-4 z-10">
-          <Image
-            src={desktopImage}
-            alt="desktop"
-            className="rounded-lg w-96 z-10"
-          />
+        <div className=" flex justify-center mt-4 z-10">
+          <Image src={banner} alt="desktop" className="rounded-lg w-2/3 z-10" />
         </div>
-        {/* <ul className=" gap-4 mt-8">
-          <li
-            className="items-center gap-2 "
-            style={{ listStyleType: "circle" }}
-          >
-            Keep track of scanned products
-          </li>
-          <li
-            className="items-center gap-2"
-            style={{ listStyleType: "circle" }}
-          >
-            Use on any device (smartphones)
-          </li>
-        </ul> */}
-        <Link href="/#">
+
+        <Link
+          href="/#"
+          className="mt-8 flex items-center gap-2 cursor-not-allowed"
+          aria-disabled="true"
+        >
           <ButtonDownloadS3File />
         </Link>
         <div className=" w-full h-px  mt-8 md:block  bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
